@@ -5,8 +5,6 @@
 
 #main {
   width: 100%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
 }
 
@@ -112,7 +110,7 @@
 /*Navbar*/
 ul.navlink a {
   text-decoration: none;
-  /*color: white;*/
+  /*color: $wh;*/
   font-weight: 300;
 }
 
@@ -148,6 +146,19 @@ footer {
 }
 
 /*Fin Animaciones*/
+/*Bootstrap variaciones y cambios*/
+.text-muted {
+  color: white !important;
+}
+
+.link-dark {
+  color: yellow !important;
+}
+
+.accordion-button {
+  background-color: yellow;
+}
+
 /*Grids*/
 header {
   grid-area: header;
@@ -178,16 +189,14 @@ footer {
     grid-template-areas: "header" "section" "sectionB" "footer";
     grid-template-rows: 5% 25% auto 3%;
     grid-template-columns: auto;
-    -moz-column-gap: 0px;
-         column-gap: 0px;
+    column-gap: 0px;
     row-gap: 0px;
   }
   #grillacontacto {
     grid-template-areas: "header" "section" "sectionB" "footer";
     grid-template-rows: 15% 35% auto 15%;
     grid-template-columns: auto;
-    -moz-column-gap: 0px;
-         column-gap: 0px;
+    column-gap: 0px;
     row-gap: 0px;
   }
   #section {
@@ -279,8 +288,7 @@ footer {
     grid-template-areas: "header" "section" "sectionB" "footer";
     grid-template-rows: 5% 30% auto 5%;
     grid-template-columns: 100%;
-    -moz-column-gap: 0px;
-         column-gap: 0px;
+    column-gap: 0px;
     row-gap: 0px;
   }
   #section {
@@ -375,16 +383,4 @@ footer {
     transform: scale(1.2);
   }
 }
-/*Fin Media Desktop*/
-/*Bootstrap variaciones y cambios*/
-.text-muted {
-  color: white !important;
-}
-
-.link-dark {
-  color: yellow !important;
-}
-
-.accordion-button {
-  background-color: yellow;
-}/*# sourceMappingURL=style.css.map */
+/*Fin Media Desktop*//*# sourceMappingURL=style.css.map */
